@@ -19,7 +19,7 @@ shinyUI(fluidPage(
     sidebarPanel(
       #selectInput for Men, Women, or Both
       #inputID = sex
-      
+      selectInput(inputId = "sex", label = "Sex:", choices = c("Male", "Female", "Both"), selected = "Both")
       
       #selectInput for Agree or Disagree
       #inputID = thoughts

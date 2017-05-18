@@ -4,7 +4,11 @@
 
 
 #Load the dataset 'womensrole' from the HSUAR package (same way you would load a built in dataset)
-
+# install.packages("HSAUR")
+# install.packages("shiny")
+library(shiny)
+library(HSAUR)
+womens.role <- data.frame(womensrole)
 
 
 #Here you will define the data that is shown based on your inputs defined in the UI
